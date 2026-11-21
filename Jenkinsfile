@@ -6,6 +6,7 @@ pipeline {
                 sh 'python3 sources/test_calc.py'
                 sh'ls'
                 sh'ls -la'
+                echo 'hello world'
             }
         }
     }
