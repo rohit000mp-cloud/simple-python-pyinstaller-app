@@ -6,7 +6,9 @@ pipeline {
                 sh 'python3 sources/test_calc.py'
                 sh'ls'
                 sh'ls -la'
-                sh'calculator tests'
+                sh'pwd'
+                sh'whoami'
+                sh'hostname'
                 echo 'hello world'
             }
         }
