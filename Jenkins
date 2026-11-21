@@ -3,14 +3,7 @@ pipeline {
     stages {
         stage('Test calculator') {
             steps {
-                sh'ls'
-                 sh'ls -l'
-                  sh'ls -la'
-                  echo 'hello world'
-                  echo 'Lets check whether it is working or not'
-                  sh'whoami'
-                   sh'hostname'
-                  
+                sh 'python3 sources/test_calc.py'
             }
         }
     }
