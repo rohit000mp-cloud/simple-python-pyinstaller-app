@@ -7,6 +7,8 @@ pipeline {
                  sh'ls -l'
                   sh'ls -la'
                   echo "Lets check whether it is working or not"
+                  sh'whoami'
+                   sh'hostname'
                   
             }
         }
