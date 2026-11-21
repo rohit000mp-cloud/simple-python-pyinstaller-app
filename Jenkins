@@ -6,7 +6,8 @@ pipeline {
                 sh'ls'
                  sh'ls -l'
                   sh'ls -la'
-                  echo "Lets check whether it is working or not"
+                  echo 'hello world'
+                  echo 'Lets check whether it is working or not'
                   sh'whoami'
                    sh'hostname'
                   
